@@ -14,9 +14,10 @@
 <body>
   <header class="header">
     <div class="header__inner">
-      <a class="header__logo" href="/">
-        Contact Form
-      </a>
+        <a class="header__logo" href="{{ route('contact.index') }}">
+      Contact Form
+    </a>
+
     </div>
   </header>
 
